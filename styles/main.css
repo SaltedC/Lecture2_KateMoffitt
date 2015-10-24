@@ -1,0 +1,51 @@
+/*
+	This is a CSS comment
+	Multilined and all
+*/
+/*
+	Guts of a CSS "search query"
+	selectorName {
+	propertyName: propertyValue;
+	}
+*/
+body {
+    background-color: black;
+    color: white;
+    font-family: "Helvetica";
+}
+
+span {
+    padding-left: 20px;
+    display: block;
+    font-style: italic;
+}
+
+.odd {
+    background-color: white;
+    color: black;
+}
+
+#bridge {
+    font-size: 16px;
+    color: yellow;
+}
+
+a {
+	color: rgb(0, 200, 110);
+	text-transform: lowercase;
+} /* This is an example of a tagName selector */
+
+.alert-important {
+	color: red;
+	text-transform: uppercase;
+	display: block;
+	font-size: 30px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align: center; /* only works for block elements, not inline */
+
+ } /* This is an examle of a className selector, it is more
+ specific than a tagName selector */
+ .no-underline {
+ 	text-decoration: none;
+ }
